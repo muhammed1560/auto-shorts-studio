@@ -99,7 +99,7 @@ flowchart TD
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/auto-shorts-studio.git
+git clone https://github.com/muhammed1560/auto-shorts-studio.git
 cd auto-shorts-studio
 ```
 
