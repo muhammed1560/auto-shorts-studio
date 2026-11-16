@@ -1,0 +1,114 @@
+# ==============================================================================
+# Environment & Secrets
+# ==============================================================================
+.env
+.env.local
+.env.*
+!.env.example
+
+# ==============================================================================
+# Temporary Media & Generated Test Files
+# ==============================================================================
+thumbnails_temp/
+*.mp4
+*.m4v
+*.mov
+*.wav
+*.avi
+*.mkv
+!engine/assets/sfx/*.wav
+
+# ==============================================================================
+# Python & Virtual Environments
+# (Note: Never add bare 'lib/' here, as Flutter stores its Dart source in 'lib/')
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Operating System Files
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==============================================================================
+# IDE & Editor Configuration
+# ==============================================================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ==============================================================================
+# Flutter / Dart / Pub
+# ==============================================================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+/build/
+coverage/
+doc/api/
+
+# ==============================================================================
+# macOS / iOS / Android SDK, Local Properties & Generated Paths
+# (Protects private local paths like /Users/<username>/...)
+# ==============================================================================
+**/local.properties
+android/local.properties
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS Generated & Local Config
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS Generated & Local Config
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+macos/Pods/
+
+# Linux & Windows Generated Config
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
